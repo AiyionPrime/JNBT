@@ -1,13 +1,15 @@
-JNBT 1.4 Beta
+JNBT 1.5-SNAPSHOT
 
 The original JNBT project seems to have been abandoned.
-This fork of JNBT has mainly added support for Tag_Int_Array
+The fork of JNBT by Morlok8k has mainly added support for Tag_Int_Array
+This fork supports maven to the project.
 
 Thanks to:
 Ancient (a.k.a. grahamedgecombe) - JNBT 1.0 and 1.1
 osici - for the TAG_Lists bug
 Jocopa3 - Initial Int-Array support
-Morlok8k - Maintaining the project
+Morlok8k - maintaining the project
+AiyionPrime - adding maven
 
 --------------
 
@@ -30,6 +32,9 @@ JNBT is a library that can read and write NBT files, written in Java by Graham E
 --------------
 
 Version History:
+1.5 (AiyionPrime)
+- maven support
+
 1.4
 - (pruby) InputStream gzip/not-gziped support
 - (ensirius) Raw DataInputStream support
